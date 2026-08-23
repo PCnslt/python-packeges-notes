@@ -1,3 +1,3 @@
-from shawn_r import print_me_func
+from shawn_r import print_me
 
 print_me()
