@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shawn_r"
+version = "0.1.0"
+requires-python = ">=3.9"
+description = "My first package!"
+readme = "README.md"
+authors = [
+    {name = "Justin Furuness", email = "jfuruness@gmail.com"},
+]
+maintainers = [
+  {name = "Justin Furuness", email = "jfuruness@gmail.com"}
+]
+license = {file = "LICENSE.txt"}
+keywords = [
+    "Furuness"
+]
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Developers",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS",
+    "Operating System :: MacOS :: MacOS X",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/jfuruness/shawn_r"
+Documentation = "https://github.com/jfuruness/shawn_r/README.md"
+
+[project.scripts]
+shawn_r = "shawn_r.__main__:main"
