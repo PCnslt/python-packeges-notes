@@ -8,3 +8,5 @@ pip3 install tqdm
 pip3 install pip --upgrade
 pip3 install -e .
 After that you can
+
+python3 -m shawn_r
