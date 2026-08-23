@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Shawn_R"
+version = "0.1.0"
+description = "My first package!"
+authors = [
+    { name = "Shawn R", email = "shawnr@gmail.com" }
+]
