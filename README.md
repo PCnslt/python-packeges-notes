@@ -16,3 +16,5 @@ python3 -m build
 
 pip3 install twine
 python3 -m twine upload dist/* --skip
+
+# MANIFEST.in = include files that are not python to be later included in the build artifacts. 
